@@ -4,6 +4,11 @@ source("R/functions.R")
 tar_option_set(packages = c("dplyr"))
 
 list(
+  tar_target(
+    file_download,
+    download.file("https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031502694&fileKind=1",
+                  "data-raw/2015_mi040001.csv")
+  ),
   # format = "file" にしておくとファイル内容の変更を検出して
   # ワークフローの再実行を判定する
   tar_target(
