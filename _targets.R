@@ -56,7 +56,7 @@ list(
     ts_plot_pref36,
     df_pops_prefecture_long %>% 
       filter(prefecture == "徳島") %>% 
-      create_plot(),
+      create_plot(color = prefecture, group = prefecture),
     packages = c("dplyr", "ggplot2")
   )
 )
