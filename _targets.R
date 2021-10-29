@@ -1,4 +1,5 @@
 library(targets)
+library(tarchetypes) # for tar_render()
 # pacman::p_load("dplyr", "ggplot2")
 source("R/functions.R")
 tar_option_set(packages = c("dplyr", "ggplot2"))
@@ -72,5 +73,10 @@ list(
       create_plot(color = prefecture, group = prefecture),
     pattern = map(prefs),
     iteration = "list"
+  ),
+  # 9. レポートの生成
+  tar_render(
+    report,
+    "report.qmd"
   )
 )
