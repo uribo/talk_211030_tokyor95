@@ -7,7 +7,7 @@ targetsを使った分析の例として、人口動態調査のデータを整�
 
 ## Slide
 
-[[Speaker Deck](https://speakerdeck.com/s_uryu/workflow-management-with-targets)] [[PDF](https://github.com/uribo/talk_211030_tokyor95/blob/master/slides/20211030_tokyor95.pdf)] [[Keynote](https://github.com/uribo/talk_211030_tokyor95/blob/master/slides/20211030_tokyor95.key)]
+[[Speaker Deck](https://speakerdeck.com/s_uryu/workflow-management-with-targets)] [[PDF](https://github.com/uribo/talk_211030_tokyor95/blob/master/slide/20211030_tokyor95.pdf)] [[Keynote](https://github.com/uribo/talk_211030_tokyor95/blob/master/slide/20211030_tokyor95.key)]
 
 ![](images/5ed3911761333c89d6e77ab750228a12.png)
 
