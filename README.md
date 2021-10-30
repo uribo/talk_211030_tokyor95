@@ -5,6 +5,12 @@
 targetsを使った分析の例として、人口動態調査のデータを整形し、可視化する処理を行います。
 ワークフローの全体像は[`_targets.R`](https://github.com/uribo/talk_211030_tokyor95/blob/master/_targets.R)を見てください。
 
+## Slide
+
+[[Speaker Deck](https://speakerdeck.com/s_uryu/workflow-management-with-targets)] [[PDF](https://github.com/uribo/talk_211030_tokyor95/blob/master/slides/20211030_tokyor95.pdf)] [[Keynote](https://github.com/uribo/talk_211030_tokyor95/blob/master/slides/20211030_tokyor95.key)]
+
+![](images/5ed3911761333c89d6e77ab750228a12.png)
+
 ## Data
 
 [人口動態調査](https://www.e-stat.go.jp/statistics/00450011)
@@ -56,7 +62,7 @@ list( # リストにターゲット（処理）を記述
     2. グラフの作成
 5. レポートの生成
 
-![](6c85fa783a52ea66986a50b7d17553e9.png)
+![](images/6c85fa783a52ea66986a50b7d17553e9.png)
 
 ## Links
 
